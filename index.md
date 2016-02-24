@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bryce Sampson
---------------------
+---
 
 <div class="hero-unit">
 <p><h1>Hello, world!</h1>
