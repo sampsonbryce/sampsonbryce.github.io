@@ -1,0 +1,17 @@
+.sec-1{
+    background-color: #24a7cc;
+}
+
+.header-text{
+    font-family: "Arial Narrow";
+    color: #ffffff;
+}
+.round-image{
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 150px;
+}
+
+.container{
+    width:250px;
+}

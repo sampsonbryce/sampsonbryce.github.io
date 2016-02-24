@@ -1,72 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Climate and Forecast Metadata also know as the CF Convention or CF Metadata" />
+    <meta name="description" content="Climate and Forecast Metadata also know as the CF Convention or CF Metadata"/>
     <meta name="author" content="{{ site.author }}">
     <link rel="shortcut icon" href="../Data/media/images/favicon.png">
 
     <title>{{ page.title }}</title>
 
     <!-- Bootstrap core CSS -->
-    <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    -->
-      <link href="../Data/media/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../Data/media/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../Data/media/css/portfolio.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <style>
-      body {
-        padding-top: 50px;
-        padding-bottom: 20px;
-      }
+        body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
         <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="index.html">Bryce Sampson</a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              {% assign pages_list = site.pages %}
-              {% assign group = 'navigation' %}
-              {% include pages_list %}
-            </ul>
-          </div>
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="index.html">Bryce Sampson</a>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    {% assign pages_list = site.pages %}
+                    {% assign group = 'navigation' %}
+                    {% include pages_list %}
+                </ul>
+            </div>
         </div>
-      </div>
     </div>
-    <div style="margin-bottom: 60px;"></div>
-    <!-- Main jumbotron for a primary marketing message or call to action -->
+</div>
 
-    <div class="container">
-      {{ content }}
+<div>
+    {% include intro.html %}
 
-      <hr>
+    <hr>
 
-      <footer>
-      <p>
-      <a href="http://github.com/webshootertk">webshootertk</a> &bull;
-      <a href="http://github.com/webshootertk/webshooter">webshooter</a> &bull;
-      <a href="#">Privacy &amp; Legal Notice</a>
-      </p>
-      </footer>
-    </div> <!-- /container -->
+    <footer>
+        <p>
+            <a href="http://github.com/sampsonbryce">sampsonbryce</a> &bull;
+            <!--<a href="#">Privacy &amp; Legal Notice</a>-->
+        </p>
+    </footer>
+</div> <!-- /container -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="../Data/media/js/links.js"></script>
-  </body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="../Data/media/js/bootstrap.min.js"></script>
+<script src="../Data/media/js/links.js"></script>
+</body>
 </html>
