@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Blank
+title: About
+group: "navigation"
 ---
 
       
