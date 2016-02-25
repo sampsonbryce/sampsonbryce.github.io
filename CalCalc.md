@@ -13,6 +13,6 @@ value for the individual foods as well as everything you have eaten that day.
 
 ***
 
-##### Find it on [Github:](http://github.com/sampsonbryce/SnapStyle)
+##### Find it on [Github:](http://github.com/sampsonbryce/workoutAndroidApp)
 ##### Find it on the [Google Play Store:](https://play.google.com/store/apps/details?id=com.calcalc.samps_000.workoutap)
 
