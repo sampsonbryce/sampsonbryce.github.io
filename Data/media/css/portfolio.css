@@ -1,17 +1,108 @@
-.sec-1{
-    background-color: #24a7cc;
+.sec-1 {
+    height: 700px;
+    background-image: url('/Data/media/images/desk-top.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
-.header-text{
-    font-family: "Arial Narrow";
-    color: #ffffff;
+.sec-3{
+    height:500px;
+    background-color: #c09853;
 }
-.round-image{
+
+
+.about-wrap {
+    text-align:center;
+}
+.about-item{
+    display:inline-block;
+    float:left;
+}
+
+
+.break-image{
+    width:70%;
+    display:inline-block;
+    margin:50px;
+}
+
+.image-container{
+}
+
+.sec-2 {
+    background-color: #333;
+}
+
+.header-text {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #c0c0c0;
+    margin: 30px;
+}
+
+.header-text2 {
+    font-size: 4em;
+}
+
+.header-text2, .header-sub {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #c0c0c0;
+    margin: 80px;
+}
+
+.round-image {
     width: 250px;
     height: 250px;
     -webkit-border-radius: 150px;
+    margin-top:30px;
+    margin-left:10%;
 }
 
-.container{
-    width:250px;
+.container {
+    width: 250px;
+}
+
+.row {
+    margin: auto;
+}
+
+.grid {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.col-sm {
+    width: 20%;
+    margin: 20px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    display: inline-block;
+}
+
+.col-sm:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.close-button {
+    margin-bottom: 10px;
+}
+
+.modal {
+    width: 70%;
+    left: 15%;
+    margin-left: 0px;
+    display: none;
+    position: absolute;
+}
+
+.sub-head {
+    color: #566566;
+    margin-top: -10px;
+}
+
+.image-wrap {
+    margin: 15px;
 }
