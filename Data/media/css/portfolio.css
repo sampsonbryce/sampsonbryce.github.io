@@ -12,6 +12,12 @@
     background-color: #c09853;
 }
 
+.foot{
+    background-color: #c09853;
+    padding-top:10px;
+    padding-bottom:5px;
+}
+
 
 .about-wrap {
     margin-left:10%;
@@ -19,6 +25,10 @@
 
 .table-info{
     color: #485560;
+}
+
+.table-info-work{
+    color: #c0c0c0;
 }
 
 .about-image{
@@ -32,15 +42,74 @@
 
 .info-table{
     margin-left:20px;
-    margin-top:40px;
 }
+
+.work-table{
+    margin-top:40px;
+    padding-bottom:40px;
+    border-collapse: separate;
+
+}
+
+hr.style-two{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.input-box{
+    width:50%;
+}
+
+.hackerrank-ico{
+    content: "..Data/media/images/hackerrankIcon.png";
+}
+
+.job{
+    margin-left:10%;
+    margin-right:10%;
+    color:#c0c0c0;
+}
+.intro-section{
+    height:33%;
+}
+
+.links-group{
+}
+
+.links-group div{
+    margin-top:60px;
+}
+
+.intro-section a {
+
+}
+
+.side-by-side{
+    display:inline-block;
+}
+
+footer {
+    color:#c0c0c0;
+    background-color:#333;
+
+}
+
 
 .info-table td{
     height:30px;
 }
 
-.table-head{
-    font-size:1.5rem;
+.table-head {
+    font-size: 1.5em;
+    width: 33.33%;
+}
+
+
+.table-head-work{
+    font-size:1.5em;
+    color: #FFF;
+    padding-bottom:10px;
 }
 .about-text p{
     margin-top:80px;
@@ -71,7 +140,7 @@
 
 .header-text2, .header-sub {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #c0c0c0;
+    color: #FFF;
     margin: 80px;
 }
 

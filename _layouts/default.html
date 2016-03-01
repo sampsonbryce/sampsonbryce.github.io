@@ -15,10 +15,14 @@
     <link href="../Data/media/css/portfolio.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="../Data/media/css/freelancer.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <style>
         body {
             padding-top: 50px;
-            padding-bottom: 20px;
+            font-size:18px;
         }
     </style>
 </head>
@@ -45,6 +49,9 @@
                     <li>
                         <a class="scroll-link" href="#work">Work</a>
                     </li>
+                    <li>
+                        <a class="scroll-link" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -60,13 +67,11 @@
 
     {% include work.html %}
 
-    <hr>
+    {% include contact.html %}
 
-    <footer>
-        <p>
-            <a href="http://github.com/sampsonbryce">sampsonbryce</a> &bull;
-            <!--<a href="#">Privacy &amp; Legal Notice</a>-->
-        </p>
+    <footer class="text-center">
+        <h4 class="side-by-side">Email: </h4>
+        <p class="side-by-side">sampson.bryce@yahoo.com</p>
     </footer>
 </div> <!-- /container -->
 
@@ -81,5 +86,6 @@
 <script src="../Data/media/js/links.js"></script>
 <script src="../Data/media/js/scroll.js"></script>
 <script src="../Data/media/js/PlaceMarkdown.js"></script>
+<script src="../Data/media/js/ModalPosition.js"></script>
 </body>
 </html>

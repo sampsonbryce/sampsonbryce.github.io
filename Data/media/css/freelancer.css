@@ -1,0 +1,96 @@
+/*!
+ * Freelancer v1.0.6 (http://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    overflow-x: hidden;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #18bc9c;
+    outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+hr.star-light,
+hr.star-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    font-size: 2em;
+    padding: 0 0.25em;
+}
+hr.star-light {
+    border-color: white;
+}
+hr.star-light:after {
+    background-color: #18bc9c;
+    color: white;
+}
+hr.star-primary {
+    border-color: #2c3e50;
+}
+hr.star-primary:after {
+    background-color: white;
+    color: #2c3e50;
+}
+.img-centered {
+    margin: 0 auto;
+}
+
+.btn-outline {
+    color: white;
+    font-size: 20px;
+    border: solid 2px white;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    color: #18bc9c;
+    background: white;
+    border: solid 2px white;
+}
+
+.btn-social {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: none;
+}
