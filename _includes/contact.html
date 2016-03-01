@@ -5,12 +5,12 @@
     <div class="text-center">
         <form method="POST" name="contactform" action="http://formspree.io/sampson.bryce@yahoo.com">
             <p>
-                <input class="input-box" type="text" name="name" placeholder="Name">
+                <input class="input-box" required type="text" name="name" placeholder="Name">
             </p>
             <p>
-                <input class="input-box" type="text" name="email" placeholder="Email">
+                <input class="input-box" type="email" required name="email" placeholder="Email">
             </p>
-            <textarea class="input-box" rows="5" name="message" placeholder="Message"></textarea><br>
+            <textarea class="input-box" required rows="5" name="message" placeholder="Message"></textarea><br>
             <input class="btn btn-primary" type="submit" value="Send">
         </form>
     </div>
