@@ -183,6 +183,8 @@ footer {
 }
 
 .modal {
+    padding-left:20px;
+    padding-right:20px;
     width: 70%;
     left: 15%;
     margin-left: 0px;
