@@ -151,13 +151,6 @@ footer {
     margin-top:30px;
 }
 
-.container {
-    width: 250px;
-}
-
-.row {
-    margin: auto;
-}
 
 .grid {
     width: 80%;
@@ -165,18 +158,18 @@ footer {
     padding-bottom: 30px;
 }
 
-.col-sm {
+/*.col-sm {
     width: 20%;
     margin: 20px;
     transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
     display: inline-block;
-}
+}*/
 
-.col-sm:hover {
+/*.col-sm:hover {
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
-}
+}*/
 
 .close-button {
     margin-bottom: 10px;
@@ -199,4 +192,8 @@ footer {
 
 .image-wrap {
     margin: 15px;
+}
+
+.work-stuff div{
+  color: #c0c0c0;
 }
