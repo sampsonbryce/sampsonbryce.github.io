@@ -13,6 +13,5 @@ value for the individual foods as well as everything you have eaten that day.
 
 ***
 
-##### Find it on [Github:](http://github.com/sampsonbryce/workoutAndroidApp)
-##### Find it on the [Google Play Store:](https://play.google.com/store/apps/details?id=com.calcalc.samps_000.workoutap)
-
+##### Find it on <a href='http://github.com/sampsonbryce/workoutAndroidApp' target='_blank'>Github</a>
+##### Find it on the <a href='https://play.google.com/store/apps/details?id=com.calcalc.samps_000.workoutap' target='_blank'>Google Play Store</a>

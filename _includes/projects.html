@@ -1,72 +1,73 @@
 <div class="container-fluid" id="projects">
     <div class="row text-center">
-       <h2 class="header-text">Projects</h2>
+        <h2 class="header-text">Projects</h2>
     </div>
     <hr class="style-two">
 
     <div class="row text-center" id='modal-links'>
-            <a href="#projectModal1" class="portfolio-link" data-toggle="modal">
-                <img src="../Data/media/images/apple.jpg" class="img-responsive">
-            </a>
-            <a href="#projectModal2" class="portfolio-link" data-toggle="modal">
-                <img src="../Data/media/images/fashion.jpg" class="img-responsive">
-            </a>
-            <a href="#projectModal3" class="portfolio-link" data-toggle="modal">
-                <img src="../Data/media/images/astar.png" class="img-responsive">
-            </a>
+        <button data-target="#projectModal1" class="portfolio-link" data-toggle="modal">
+            <img src="../Data/media/images/apple.jpg" class="img-responsive">
+        </button>
+        <button data-target="#projectModal2" class="portfolio-link" data-toggle="modal">
+            <img src="../Data/media/images/fashion.jpg" class="img-responsive">
+        </button>
+        <button data-target="#projectModal3" class="portfolio-link" data-toggle="modal">
+            <img src="../Data/media/images/astar.png" class="img-responsive">
+        </button>
 
     </div>
 </div>
 
 
 <!--modals-->
-<div class="container modal fade" id="projectModal1" aria-hidden="true">
-    <div class="modal-content">
-        <div class="row text-center">
-            <h1>Calorie Calculator for Android</h1>
+<div class="modal fade" id="projectModal1" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role='document'>
+        <div class='modal-content'>
+            <div class="model-header text-center">
+                <h1>Calorie Calculator for Android</h1>
+            </div>
+            <div class="modal-body text-center image-wrap">
+                <img src="../Data/media/images/apple.jpg">
+                <div class="text-center desc" data="CalCalc.md"></div>
+            </div>
+            <div class="modal-footer text-center">
+                <button class="center-block close-button btn" type="button" data-dismiss="modal">Close</button>
+            </div>
         </div>
-        <div class="row text-center image-wrap">
-            <img src="../Data/media/images/apple.jpg" class="img-responsive">
-        </div>
-        <div class="row text-center desc" data="CalCalc.md">
-        </div>
-        <div class="row text-center">
-            <button class="center-block close-button btn" type="button" data-dismiss="modal">Close</button>
-        </div>
-
     </div>
 </div>
 
 <div class="modal fade" id="projectModal2" aria-hidden="true">
-    <div class="modal-content">
-        <div class="row text-center">
-            <h1>SnapStyle</h1>
+    <div class='modal-dialog modal-lg'>
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h1>SnapStyle</h1>
+            </div>
+            <div class="modal-body text-center image-wrap">
+                <img src="../Data/media/images/fashion.jpg" class="img-responsive">
+                <div class="text-center desc" data="SnapStyle.md"></div>
+            </div>
+            <div class="modal-footer text-center">
+                <button class="center-block close-button btn" type="button" data-dismiss="modal">Close</button>
+            </div>
         </div>
-        <div class="row text-center image-wrap">
-            <img src="../Data/media/images/fashion.jpg" class="img-responsive">
-        </div>
-        <div class="row text-center desc" data="SnapStyle.md">
-        </div>
-        <div class="row text-center">
-            <button class="center-block close-button btn" type="button" data-dismiss="modal">Close</button>
-        </div>
-
     </div>
 </div>
 
 <div class="modal fade" id="projectModal3" aria-hidden="true">
+    <div class='modal-dialog modal-lg'>
     <div class="modal-content">
-        <div class="row text-center">
+        <div class="modal-header text-center">
             <h1>A* Pathfinding</h1>
         </div>
-        <div class="row text-center image-wrap">
+        <div class="modal-body text-center image-wrap">
             <img src="../Data/media/images/astar.png" class="img-responsive">
+            <div class="text-center desc" data="Astar.md">
         </div>
-        <div class="row text-center desc" data="Astar.md">
         </div>
-        <div class="row text-center">
+        <div class="modal-footer text-center">
             <button class="center-block close-button btn" type="button" data-dismiss="modal">Close</button>
         </div>
-
+</div>
     </div>
 </div>
