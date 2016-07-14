@@ -1,36 +1,32 @@
-<section class="sec-3" id="about">
+<section class="container-fluid" id="about">
     <div class="row text-center">
-        <h1 class="header-text" style="color:#333">About</h1>
+        <h1 class="header-text" id='about-header'>About</h1>
     </div>
-    <div class="about-wrap">
-        <div class="row about-image">
-            <img class="round-image" src="../Data/media/images/seniorpic1.jpg">
+
+    <hr class="style-two">
+    <div class="about-wrap row">
+      <div class='col-xs-12 col-md-3 text-center'>
+
+        <div class="" id='about-image'>
+            <img src="../Data/media/images/GpaInterviewPic.jpg">
         </div>
-        <div class="about-text">
+      </div>
+        <div class="col-xs-12 col-md-9 about-text">
             {{content}}
-            <table style="width:100%" class="info-table">
-                <tr>
-                    <td align="center" class="table-head">Major:</td>
-
-                    <td align="center" class="table-head">Minor:</td>
-                </tr>
-                <tr>
-                    <td align="center" class="table-info">Computer Science</td>
-
-                    <td align="center" class="table-info">Computer Animation and Game Development</td>
-                </tr>
-                <tr>
-                    <td align="center" style="font-size:1rem">Major GPA: </td>
-
-                    <td align="center" style="font-size:1rem">Cummulative GPA: </td>
-                </tr>
-                <tr>
-                    <td align="center" class="table-info">3.95</td>
-
-                    <td align="center" class="table-info">3.65</td>
-                </tr>
-            </table>
+            <div class='about-stuff'>
+                <div class='col-md-6 text-center'>
+                    <h3>Major:</h3>
+                    <p>Computer Science</p>
+                    <h5>Major GPA:</h5>
+                    <p>3.95</p>
+                </div>
+                <div class='col-md-6 text-center'>
+                    <h3>Minor:</h3>
+                    <p>Computer Animation and Game Development</p>
+                    <h5>Cummulative GPA:</h5>
+                    <p>3.65</p>
+                </div>
+            </div>
 
         </div>
-    </div>
 </section>

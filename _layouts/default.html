@@ -1,93 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Climate and Forecast Metadata also know as the CF Convention or CF Metadata"/>
+    <meta name="description" content="Climate and Forecast Metadata also know as the CF Convention or CF Metadata" />
     <meta name="author" content="{{ site.author }}">
     <link rel="shortcut icon" href="../Data/media/images/favicon.png">
 
     <title>{{ page.title }}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../Data/media/css/bootstrap.min.css" rel="stylesheet">
     <link href="../Data/media/css/portfolio.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="../Data/media/css/freelancer.css">
-
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <style>
         body {
             padding-top: 50px;
-            font-size:18px;
+            font-size: 18px;
         }
     </style>
 </head>
 
 <body>
 
-<div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="brand scroll-link" href="#top">Bryce Sampson</a>
-            <div class="nav-collapse">
-                <ul class="nav">
-                    <li>
-                        <a class="scroll-link" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="scroll-link" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="scroll-link" href="#work">Work</a>
-                    </li>
-                    <li>
-                        <a class="scroll-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+    <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container-fluid">
+            <div id='nav-to-center'>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand scroll-link" href="#top">Bryce Sampson</a>
+                </div>
+                <div class="collapse navbar-collapse" id="nav-collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="scroll-link" href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a class="scroll-link" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="scroll-link" href="#work">Work</a>
+                        </li>
+                        <li>
+                            <a class="scroll-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div>
-    {% include intro.html %}
-
-    {% include projects.html %}
-
-    {% include about.html %}
-
-    {% include work.html %}
-
-    {% include contact.html %}
-
-    <footer class="text-center">
-        <h4 class="side-by-side">Email: </h4>
-        <p class="side-by-side">sampson.bryce@yahoo.com</p>
-        <a href="http://www.quick-counter.net/" title="HTML hit counter - Quick-counter.net" style="margin-left:50px;"><img src="http://www.quick-counter.net/aip.php?tp=di&tz=America%2FLos_Angeles" alt="HTML hit counter - Quick-counter.net" border="0" /></a>
-    </footer>
-</div> <!-- /container -->
+    <div>
+        {% include intro.html %}
+        {% include projects.html %}
+        {% include about.html %}
+        {% include work.html %}
+        {% include contact.html %}
+        <div class='container-fluid'>
+            <footer class="row text-center">
+                <h4 class="side-by-side">Email: </h4>
+                <p class="side-by-side">sampson.bryce@yahoo.com</p>
+                <a href="http://www.quick-counter.net/" title="HTML hit counter - Quick-counter.net" style="margin-left:50px;"><img src="http://www.quick-counter.net/aip.php?tp=di&tz=America%2FLos_Angeles" alt="HTML hit counter - Quick-counter.net" border="0" /></a>
+            </footer>
+        </div>
+    </div>
+    <!-- /container -->
 
 
-<!-- Bootstrap core JavaScript
+    <!-- Bootstrap core JavaScript
 ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="https://cdn.rawgit.com/showdownjs/showdown/1.3.0/dist/showdown.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.2.0/parsley.js"></script>
-<script src="../Data/media/js/bootstrap.min.js"></script>
-<script src="../Data/media/js/links.js"></script>
-<script src="../Data/media/js/scroll.js"></script>
-<script src="../Data/media/js/PlaceMarkdown.js"></script>
-<script src="../Data/media/js/ModalPosition.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdn.rawgit.com/showdownjs/showdown/1.3.0/dist/showdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.2.0/parsley.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="../Data/media/js/links.js"></script>
+    <script src="../Data/media/js/scroll.js"></script>
+    <script src="../Data/media/js/PlaceMarkdown.js"></script>
+    <script src="../Data/media/js/ModalPosition.js"></script>
 </body>
+
 </html>

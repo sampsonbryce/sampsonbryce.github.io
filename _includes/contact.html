@@ -1,17 +1,23 @@
-<section class="sec-3" id="contact">
+<div class="sec-3 container-fluid" id="contact">
     <div class="row text-center">
-        <h1 class="header-text2">Contact Me</h1>
+        <div class='col-xs-12'>
+            <h1 class="header-text2">Contact Me</h1>
+        </div>
     </div>
-    <div class="text-center">
-        <form method="POST" name="contactform" action="http://formspree.io/sampson.bryce@yahoo.com">
-            <p>
-                <input class="input-box" required type="text" name="name" placeholder="Name">
-            </p>
-            <p>
-                <input class="input-box" type="email" required name="email" placeholder="Email">
-            </p>
-            <textarea class="input-box" required rows="5" name="message" placeholder="Message"></textarea><br>
-            <input class="btn btn-primary" type="submit" value="Send">
-        </form>
+    <div class="row text-center">
+        <div class='col-xs-12'>
+            <form method="POST" name="contactform" action="http://formspree.io/sampson.bryce@yahoo.com">
+                <p>
+                    <input class="input-box" required type="text" name="name" placeholder="Name">
+                </p>
+                <p>
+                    <input class="input-box" type="email" required name="email" placeholder="Email">
+                </p>
+                <textarea class="input-box" required name="message" placeholder="Message"></textarea>
+                <br>
+                <input class="btn btn-primary" type="submit" value="Send">
+            </form>
+        </div>
+
     </div>
-</section>
+</div>
