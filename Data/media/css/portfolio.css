@@ -11,26 +11,9 @@
     height:500px;
     background-color: #c09853;
 }
-
-.foot{
-    background-color: #c09853;
-    padding-top:10px;
-    padding-bottom:5px;
-}
-
-
 .about-wrap {
     margin-left:10%;
 }
-
-.table-info{
-    color: #485560;
-}
-
-.table-info-work{
-    color: #c0c0c0;
-}
-
 #about-image{
     width:285px;
     height:350px;
@@ -45,18 +28,6 @@
 .about-text{
     overflow:hidden;
 }
-
-.info-table{
-    margin-left:20px;
-}
-
-.work-table{
-    margin-top:40px;
-    padding-bottom:40px;
-    border-collapse: separate;
-
-}
-
 hr.style-two{
     border: 0;
     height: 1px;
@@ -66,11 +37,6 @@ hr.style-two{
 .input-box{
     width:50%;
 }
-
-.hackerrank-ico{
-    content: "..Data/media/images/hackerrankIcon.png";
-}
-
 .job{
     margin: 0 100px 0 100px !important;
     color:#c0c0c0;
@@ -98,32 +64,9 @@ footer {
     color:#c0c0c0;
     background-color:#333;
 }
-
-
-.info-table td{
-    height:30px;
-}
-
-.table-head {
-    font-size: 1.5em;
-    width: 33.33%;
-}
-
-
-.table-head-work{
-    font-size:1.5em;
-    color: #FFF;
-    padding-bottom:10px;
-}
-
-.break-image{
-    width:70%;
-    display:inline-block;
-    margin:50px;
-}
-
 .sec-2 {
     background-color: #333;
+    padding-bottom:30px;
 }
 
 .header-text {
@@ -141,30 +84,6 @@ footer {
     color: #FFF;
     margin: 80px;
 }
-
-.round-image {
-    width: 250px;
-    height: 250px;
-    -webkit-border-radius: 150px;
-    margin-top:30px;
-}
-
-
-.grid {
-    width: 80%;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-/*.col-sm {
-    width: 20%;
-    margin: 20px;
-        display: inline-block;
-}*/
-
-/*.col-sm:hover {
-    }*/
-
 .close-button {
     margin-bottom: 10px;
 }
