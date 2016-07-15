@@ -59,6 +59,9 @@ hr.style-two{
 .side-by-side{
     display:inline-block;
 }
+.side-by-side > a{
+    text-decoration: none !important;
+}
 
 footer {
     color:#c0c0c0;
@@ -72,7 +75,7 @@ footer {
 .header-text {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #c0c0c0;
-    margin: 30px;
+    margin-top:30px;
 }
 
 .header-text2 {
@@ -140,6 +143,4 @@ footer {
 .modal-body > img{
     margin: 0 auto;
     margin-bottom:20px;
-}
-.modal .modal-dialog{
 }
