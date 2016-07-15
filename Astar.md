@@ -11,4 +11,4 @@ the start to the end.
 ### Technologies:
 <h4 class="sub-head">Git</h4>
 
-##### Find it on [Github:](http://github.com/sampsonbryce/AstarPathfinding)
+##### Find it on <a href='http://github.com/sampsonbryce/AstarPathfinding' target='_blank'>Github</a>
