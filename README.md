@@ -1,6 +1,4 @@
-jekyll-bootstrap
+Jekyll Bootstrap Profile Site
 ==========================
-
-###webshootertk
-####jekyll bootstrap
+####Jekyll - Bootstrap - JS - HTML/CSS
 
