@@ -9,7 +9,6 @@ $(document).ready(function() {
         $myDialog = $(id);
 
         // now set your dialog position
-        console.log('top offset', (offset + (viewportHeight / 20)))
         $myDialog.css('top', (offset + (viewportHeight / 20)));
     });
 });

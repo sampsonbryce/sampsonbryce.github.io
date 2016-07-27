@@ -151,3 +151,7 @@ footer {
     padding:5px;
     text-decoration: none;
 }
+
+.portfolio-link > img{
+  object-fit: cover;
+}
