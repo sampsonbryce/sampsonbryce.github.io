@@ -28,6 +28,10 @@
 .about-text{
     overflow:hidden;
 }
+.about-text > p{
+    margin: 0 50px 0 50px !important;
+}
+
 hr.style-two{
     border: 0;
     height: 1px;
@@ -38,7 +42,7 @@ hr.style-two{
     width:50%;
 }
 .job{
-    margin: 0 100px 0 100px !important;
+    margin: 0 50px 0 50px !important;
     color:#c0c0c0;
 }
 .intro-section{
@@ -154,4 +158,24 @@ footer {
 
 .portfolio-link > img{
   object-fit: cover;
+}
+
+.image-container{
+    height:245px;
+    position:relative;
+}
+
+.image-container > img{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.llnl-image-container > img{
+  height: 200px;
+}
+
+.shr-image-container > img{
+  margin-left:30px;
 }

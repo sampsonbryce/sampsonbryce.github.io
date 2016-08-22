@@ -1,0 +1,1 @@
+Currently I work for SocialHighRise, a Chico CA local startup that manages social media for restaurants. At this point in time I develop on their Wordpress site, overhauling, managing, updating, making mobile-ready, and adding new features. In the future I will coordinate with a Koder.io development team to develop an in-house account management tool.
